@@ -1,0 +1,23 @@
+{
+  "clients": [
+    {
+      "clientId": "FFB031D0-474D-4580-A84D-D65A37DA37EF",
+      "allowed-origins": [
+        "*"
+      ]
+    },
+    {
+      "clientId": "FFB031D0-474D-4580-A84D-D65A37DA37ED",
+      "allowed-origins": [
+        "192.168.1.195",
+        "::1"
+      ]
+    },
+    {
+      "clientId": "FFB031D0-474D-4580-A84D-D65A37DA37EC",
+      "allowed-origins": [
+        "*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aya.RemoteSettings", "Aya.RemoteSettings\Aya.RemoteSettings.csproj", "{34AE8AE9-0B04-4C0E-BBB4-35AA59C7718E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aya.Services.Common", "Aya.Services.Common\Aya.Services.Common.csproj", "{62723544-DC92-4DE2-985D-6515D5A644DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aya.ServiceContracts.Common", "Aya.ServiceContracts.Common\Aya.ServiceContracts.Common.csproj", "{5AC3A8F8-0B2B-41C1-A928-CDB1E4C92283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aya.RemoteSettings.Services", "Aya.RemoteSettings.Services\Aya.RemoteSettings.Services.csproj", "{7F2D8BAA-680F-4F55-8A42-5945E881160A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aya.RemoteSettings.ServiceContracts", "Aya.RemoteSettings.ServiceContracts\Aya.RemoteSettings.ServiceContracts.csproj", "{A02A9F6E-A50C-467E-A7C3-8A762ACF437F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".common", ".common", "{471A63F8-EBCA-4E96-B04D-C1DA9A34168B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34AE8AE9-0B04-4C0E-BBB4-35AA59C7718E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AE8AE9-0B04-4C0E-BBB4-35AA59C7718E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AE8AE9-0B04-4C0E-BBB4-35AA59C7718E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AE8AE9-0B04-4C0E-BBB4-35AA59C7718E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62723544-DC92-4DE2-985D-6515D5A644DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62723544-DC92-4DE2-985D-6515D5A644DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62723544-DC92-4DE2-985D-6515D5A644DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62723544-DC92-4DE2-985D-6515D5A644DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC3A8F8-0B2B-41C1-A928-CDB1E4C92283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC3A8F8-0B2B-41C1-A928-CDB1E4C92283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC3A8F8-0B2B-41C1-A928-CDB1E4C92283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC3A8F8-0B2B-41C1-A928-CDB1E4C92283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2D8BAA-680F-4F55-8A42-5945E881160A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2D8BAA-680F-4F55-8A42-5945E881160A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2D8BAA-680F-4F55-8A42-5945E881160A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2D8BAA-680F-4F55-8A42-5945E881160A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02A9F6E-A50C-467E-A7C3-8A762ACF437F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02A9F6E-A50C-467E-A7C3-8A762ACF437F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02A9F6E-A50C-467E-A7C3-8A762ACF437F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02A9F6E-A50C-467E-A7C3-8A762ACF437F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62723544-DC92-4DE2-985D-6515D5A644DC} = {471A63F8-EBCA-4E96-B04D-C1DA9A34168B}
+		{5AC3A8F8-0B2B-41C1-A928-CDB1E4C92283} = {471A63F8-EBCA-4E96-B04D-C1DA9A34168B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA786BEC-444A-4F69-9FEB-3F83D3308C75}
+	EndGlobalSection
+EndGlobal

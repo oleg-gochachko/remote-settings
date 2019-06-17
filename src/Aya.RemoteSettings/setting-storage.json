@@ -1,0 +1,34 @@
+{
+  "settings": [
+    {
+      "name": "core.api.url",
+      "value": "http://default.core.api.url"
+    },
+    {
+      "name": "core.api.url",
+      "value": "http://default-actual-date.core.api.url",
+      "actualFrom": "2019-06-15T13:50:00",
+      "actualTo": "2019-06-15T15:59:00"
+    },
+    {
+      "name": "core.api.url",
+      "version": "hot",
+      "value": "http://hot.core.api.url"
+    },
+    {
+      "name": "core.api.url",
+      "version": "hot",
+      "clientId": "FFB031D0-474D-4580-A84D-D65A37DA37EF",
+      "value": "http://hot.core.api.url:123"
+    },
+    {
+      "name": "core.api.url",
+      "clientId": "FFB031D0-474D-4580-A84D-D65A37DA37EF",
+      "value": "http://default.core.api.url:123"
+    },
+    {
+      "name": "creator",
+      "value": "Oleg Gochachko"
+    }
+  ] 
+}
